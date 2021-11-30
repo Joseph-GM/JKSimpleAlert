@@ -39,13 +39,13 @@
 		607FACE51AFB9204008FA782 /* JKSimpleAlert_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKSimpleAlert_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		68362BAFED451EF055C64098 /* JKSimpleAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JKSimpleAlert.podspec; path = ../JKSimpleAlert.podspec; sourceTree = "<group>"; };
+		68362BAFED451EF055C64098 /* JKSimpleAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JKSimpleAlert.podspec; path = ../JKSimpleAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8C355097CEA4909F233B26F5 /* Pods-JKSimpleAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKSimpleAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-JKSimpleAlert_Tests/Pods-JKSimpleAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BF609CFD566884ADD7F2C308 /* Pods-JKSimpleAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKSimpleAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JKSimpleAlert_Tests/Pods-JKSimpleAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CDBD4629EAF9573513DB072A /* Pods_JKSimpleAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKSimpleAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA67F939771F692B53FCEB98 /* Pods_JKSimpleAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKSimpleAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAA885FEA66853D5C1DA3394 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F7B616FA464E4EEA7E9360B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EAA885FEA66853D5C1DA3394 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F7B616FA464E4EEA7E9360B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F9C9893EF90ADAD585CB4E78 /* Pods-JKSimpleAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKSimpleAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-JKSimpleAlert_Example/Pods-JKSimpleAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				BF609CFD566884ADD7F2C308 /* Pods-JKSimpleAlert_Tests.debug.xcconfig */,
 				8C355097CEA4909F233B26F5 /* Pods-JKSimpleAlert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
