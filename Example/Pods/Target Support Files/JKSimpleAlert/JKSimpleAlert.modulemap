@@ -1,0 +1,6 @@
+framework module JKSimpleAlert {
+  umbrella header "JKSimpleAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

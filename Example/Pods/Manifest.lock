@@ -1,0 +1,16 @@
+PODS:
+  - JKSimpleAlert (0.1.0)
+
+DEPENDENCIES:
+  - JKSimpleAlert (from `../`)
+
+EXTERNAL SOURCES:
+  JKSimpleAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKSimpleAlert: 3b350521050c5b958bfa5aa2b0793f9504869840
+
+PODFILE CHECKSUM: d468ce670c88b539408993633046982feeb335ef
+
+COCOAPODS: 1.10.1

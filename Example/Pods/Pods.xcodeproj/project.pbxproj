@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14098D10944040C0AEEEDA281B5ACE50 /* JKSimpleAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691E431883820768ACF70818669FD9A /* JKSimpleAlert.swift */; };
+		2139CFC9D7FBEE713E10016A35F87111 /* Pods-JKSimpleAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAFF261702DDA29AEAC7C3338500D0A /* Pods-JKSimpleAlert_Example-dummy.m */; };
+		2D96635F1E55F9EBE6E275042894C92D /* Pods-JKSimpleAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 214EA7EDDDD47E5E84EEC1AF7D6D1C35 /* Pods-JKSimpleAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E2D163604981C0389CFD97C0CFC9702 /* Pods-JKSimpleAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3C62C8127E7BE4B4809E4760103715 /* Pods-JKSimpleAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34FF968442C5C1BD17AB593FCAD43C06 /* JKSimpleAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F986EEC002D6B7FD7E472BAA41C13A /* JKSimpleAlert-dummy.m */; };
+		41723359372C6A388964F4A3BD263A34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		510929F76C02B45DB1B86DCB35B1CBFE /* JKSimpleAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5297491326C46B83B2DFBAA741CD4A2A /* JKSimpleAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66AACECF710D3891BF833E92929B44E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9C8DD57AD20A365FD3E6CF2E4407852F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E14DA1D90B09616570A4068B2E7EC657 /* Pods-JKSimpleAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 359F8A8329E378AB8F0EA1A83ECC7C77 /* Pods-JKSimpleAlert_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D2CB4F1CCE752D304661D99BCE64CC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65030BADCBE37576BD7D4CB43EFC086F;
+			remoteInfo = JKSimpleAlert;
+		};
+		D00B5A34CA9B37CB28315E4E73C359D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185089ED8A41E444082F258A2A8DF56B;
+			remoteInfo = "Pods-JKSimpleAlert_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D0F9FE15CF149B32AE95A567FEA916 /* Pods_JKSimpleAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKSimpleAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		130D366B6E2532FAFE3D8B80ADD4D6F0 /* Pods-JKSimpleAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSimpleAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AD5D735B22D480E90C53F46B45234B1 /* Pods-JKSimpleAlert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSimpleAlert_Tests-Info.plist"; sourceTree = "<group>"; };
+		214EA7EDDDD47E5E84EEC1AF7D6D1C35 /* Pods-JKSimpleAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSimpleAlert_Example-umbrella.h"; sourceTree = "<group>"; };
+		2DAFF261702DDA29AEAC7C3338500D0A /* Pods-JKSimpleAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSimpleAlert_Example-dummy.m"; sourceTree = "<group>"; };
+		2F820B350DE3EAEEFBEC32A8683219B5 /* Pods-JKSimpleAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKSimpleAlert_Tests.modulemap"; sourceTree = "<group>"; };
+		359F8A8329E378AB8F0EA1A83ECC7C77 /* Pods-JKSimpleAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSimpleAlert_Tests-dummy.m"; sourceTree = "<group>"; };
+		5297491326C46B83B2DFBAA741CD4A2A /* JKSimpleAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSimpleAlert-umbrella.h"; sourceTree = "<group>"; };
+		53DA3B0FE14E708D5E45012104EA351F /* JKSimpleAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSimpleAlert.debug.xcconfig; sourceTree = "<group>"; };
+		64B7963BF80F2F95D2EC87098F7BF773 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		661B597A29C8A18762B1E047AD54ED61 /* Pods-JKSimpleAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSimpleAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		686519A3A1DC842C232F56C5702B31E8 /* Pods-JKSimpleAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSimpleAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		724D2FC9DD4C4D5EFCCB3CEA34185574 /* JKSimpleAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSimpleAlert-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77F986EEC002D6B7FD7E472BAA41C13A /* JKSimpleAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKSimpleAlert-dummy.m"; sourceTree = "<group>"; };
+		7929CFC9C6E78C824BE8411023328385 /* Pods-JKSimpleAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSimpleAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B59227C44937A62A2E905C908D0AA0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7E49CEC9CE9631B9C6CDDC9DE31FC26D /* JKSimpleAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSimpleAlert.release.xcconfig; sourceTree = "<group>"; };
+		96CD44341BB5B010DF0A02A1FE5DE369 /* Pods-JKSimpleAlert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSimpleAlert_Example-Info.plist"; sourceTree = "<group>"; };
+		9A3C62C8127E7BE4B4809E4760103715 /* Pods-JKSimpleAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSimpleAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1735E62770ACB378EDD1DE2039725A9 /* JKSimpleAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JKSimpleAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A288BECEAA40B6AD14411117932BE4B5 /* JKSimpleAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKSimpleAlert.modulemap; sourceTree = "<group>"; };
+		B2C8051547FE81F52BC2A10C3584514E /* Pods-JKSimpleAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSimpleAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAB74A30F26B020089FB3182DE31FB4B /* JKSimpleAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKSimpleAlert-Info.plist"; sourceTree = "<group>"; };
+		C66E63F4401D642A7EA42FCFBB52C6A3 /* JKSimpleAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSimpleAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4ABF17C545CB54A96539B97C612411 /* Pods-JKSimpleAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKSimpleAlert_Example.modulemap"; sourceTree = "<group>"; };
+		D4604490D250795E99575A7FB446F2D2 /* Pods-JKSimpleAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSimpleAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D691E431883820768ACF70818669FD9A /* JKSimpleAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKSimpleAlert.swift; path = JKSimpleAlert/Classes/JKSimpleAlert.swift; sourceTree = "<group>"; };
+		D9356B07C1646B1BD2197527CE211F11 /* Pods_JKSimpleAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKSimpleAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45C85310BE4B5BBB67DE138C9D15CC1 /* Pods-JKSimpleAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSimpleAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5B39AB398DBB894B4103FEE812E3CBE /* Pods-JKSimpleAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKSimpleAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F0C0BD1299C2497E60213E9208D17D2F /* Pods-JKSimpleAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSimpleAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91E5F96E6042235BE6617537D37A5518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8DD57AD20A365FD3E6CF2E4407852F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9283D74A60CB740C96FF3B6A0EB3D082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66AACECF710D3891BF833E92929B44E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F069966B095989D19A9851C3B1B6D26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41723359372C6A388964F4A3BD263A34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000D08B891A0B2BFADD1032021CA02AE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B5A95F4F07E9BD06ACD71FAFA2E8E /* Pods-JKSimpleAlert_Example */,
+				12C343C2F07B6EDD47D1868DE6453E7B /* Pods-JKSimpleAlert_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		12C343C2F07B6EDD47D1868DE6453E7B /* Pods-JKSimpleAlert_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2F820B350DE3EAEEFBEC32A8683219B5 /* Pods-JKSimpleAlert_Tests.modulemap */,
+				130D366B6E2532FAFE3D8B80ADD4D6F0 /* Pods-JKSimpleAlert_Tests-acknowledgements.markdown */,
+				F0C0BD1299C2497E60213E9208D17D2F /* Pods-JKSimpleAlert_Tests-acknowledgements.plist */,
+				359F8A8329E378AB8F0EA1A83ECC7C77 /* Pods-JKSimpleAlert_Tests-dummy.m */,
+				1AD5D735B22D480E90C53F46B45234B1 /* Pods-JKSimpleAlert_Tests-Info.plist */,
+				9A3C62C8127E7BE4B4809E4760103715 /* Pods-JKSimpleAlert_Tests-umbrella.h */,
+				7929CFC9C6E78C824BE8411023328385 /* Pods-JKSimpleAlert_Tests.debug.xcconfig */,
+				D4604490D250795E99575A7FB446F2D2 /* Pods-JKSimpleAlert_Tests.release.xcconfig */,
+			);
+			name = "Pods-JKSimpleAlert_Tests";
+			path = "Target Support Files/Pods-JKSimpleAlert_Tests";
+			sourceTree = "<group>";
+		};
+		2796622218476132DBC2C2F14DB1A830 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5880C88D841249172884CF5317E4C22A /* JKSimpleAlert */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		375BCBF58C53695CBEC8BEA45CBB47A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C66E63F4401D642A7EA42FCFBB52C6A3 /* JKSimpleAlert.framework */,
+				03D0F9FE15CF149B32AE95A567FEA916 /* Pods_JKSimpleAlert_Example.framework */,
+				D9356B07C1646B1BD2197527CE211F11 /* Pods_JKSimpleAlert_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5880C88D841249172884CF5317E4C22A /* JKSimpleAlert */ = {
+			isa = PBXGroup;
+			children = (
+				D691E431883820768ACF70818669FD9A /* JKSimpleAlert.swift */,
+				6B8BF495DC838D6C4012126DFFDCBCDF /* Pod */,
+				D073702727F032974574E17C59F6399F /* Support Files */,
+			);
+			name = JKSimpleAlert;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6B8BF495DC838D6C4012126DFFDCBCDF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A1735E62770ACB378EDD1DE2039725A9 /* JKSimpleAlert.podspec */,
+				7B59227C44937A62A2E905C908D0AA0E /* LICENSE */,
+				64B7963BF80F2F95D2EC87098F7BF773 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AB5B5A95F4F07E9BD06ACD71FAFA2E8E /* Pods-JKSimpleAlert_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CD4ABF17C545CB54A96539B97C612411 /* Pods-JKSimpleAlert_Example.modulemap */,
+				686519A3A1DC842C232F56C5702B31E8 /* Pods-JKSimpleAlert_Example-acknowledgements.markdown */,
+				B2C8051547FE81F52BC2A10C3584514E /* Pods-JKSimpleAlert_Example-acknowledgements.plist */,
+				2DAFF261702DDA29AEAC7C3338500D0A /* Pods-JKSimpleAlert_Example-dummy.m */,
+				E5B39AB398DBB894B4103FEE812E3CBE /* Pods-JKSimpleAlert_Example-frameworks.sh */,
+				96CD44341BB5B010DF0A02A1FE5DE369 /* Pods-JKSimpleAlert_Example-Info.plist */,
+				214EA7EDDDD47E5E84EEC1AF7D6D1C35 /* Pods-JKSimpleAlert_Example-umbrella.h */,
+				661B597A29C8A18762B1E047AD54ED61 /* Pods-JKSimpleAlert_Example.debug.xcconfig */,
+				E45C85310BE4B5BBB67DE138C9D15CC1 /* Pods-JKSimpleAlert_Example.release.xcconfig */,
+			);
+			name = "Pods-JKSimpleAlert_Example";
+			path = "Target Support Files/Pods-JKSimpleAlert_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2796622218476132DBC2C2F14DB1A830 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				375BCBF58C53695CBEC8BEA45CBB47A0 /* Products */,
+				000D08B891A0B2BFADD1032021CA02AE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D073702727F032974574E17C59F6399F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A288BECEAA40B6AD14411117932BE4B5 /* JKSimpleAlert.modulemap */,
+				77F986EEC002D6B7FD7E472BAA41C13A /* JKSimpleAlert-dummy.m */,
+				BAB74A30F26B020089FB3182DE31FB4B /* JKSimpleAlert-Info.plist */,
+				724D2FC9DD4C4D5EFCCB3CEA34185574 /* JKSimpleAlert-prefix.pch */,
+				5297491326C46B83B2DFBAA741CD4A2A /* JKSimpleAlert-umbrella.h */,
+				53DA3B0FE14E708D5E45012104EA351F /* JKSimpleAlert.debug.xcconfig */,
+				7E49CEC9CE9631B9C6CDDC9DE31FC26D /* JKSimpleAlert.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JKSimpleAlert";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DCB5A7D756DF2A2D3DCC971B8592EDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D96635F1E55F9EBE6E275042894C92D /* Pods-JKSimpleAlert_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462A5CB98909405DD254BCAC049EE255 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510929F76C02B45DB1B86DCB35B1CBFE /* JKSimpleAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8BC7AAE341FCA9DCCC5413F704FD71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2D163604981C0389CFD97C0CFC9702 /* Pods-JKSimpleAlert_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		185089ED8A41E444082F258A2A8DF56B /* Pods-JKSimpleAlert_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1A7027FD0A38B36F55E1BAEE1D13B4 /* Build configuration list for PBXNativeTarget "Pods-JKSimpleAlert_Example" */;
+			buildPhases = (
+				3DCB5A7D756DF2A2D3DCC971B8592EDC /* Headers */,
+				F7E8AD6312F0F0ED90A693A1C394E6C8 /* Sources */,
+				91E5F96E6042235BE6617537D37A5518 /* Frameworks */,
+				F15B5A930D6A005546B6B9FD26B665B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EEC54BBE17C4BAD17FC4048DC5EC6D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-JKSimpleAlert_Example";
+			productName = "Pods-JKSimpleAlert_Example";
+			productReference = 03D0F9FE15CF149B32AE95A567FEA916 /* Pods_JKSimpleAlert_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65030BADCBE37576BD7D4CB43EFC086F /* JKSimpleAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B32FFDD02A47A6163F206C4D158EEE0 /* Build configuration list for PBXNativeTarget "JKSimpleAlert" */;
+			buildPhases = (
+				462A5CB98909405DD254BCAC049EE255 /* Headers */,
+				408A847CC1F48383B32F4CDDB954A528 /* Sources */,
+				F069966B095989D19A9851C3B1B6D26F /* Frameworks */,
+				4ADCD4298E0CA995385308D4CE14BDE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKSimpleAlert;
+			productName = JKSimpleAlert;
+			productReference = C66E63F4401D642A7EA42FCFBB52C6A3 /* JKSimpleAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB09853A74719007155244E497D3804A /* Pods-JKSimpleAlert_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FCB0F419611D61DBFEADD531BB852D /* Build configuration list for PBXNativeTarget "Pods-JKSimpleAlert_Tests" */;
+			buildPhases = (
+				6C8BC7AAE341FCA9DCCC5413F704FD71 /* Headers */,
+				42769DDA3D8B7F1B6D0DE4DE8BB1813B /* Sources */,
+				9283D74A60CB740C96FF3B6A0EB3D082 /* Frameworks */,
+				CB31B8DDCA5759879F028A54B40E3F25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8A308991F58CD5BC911E6AA63761B9 /* PBXTargetDependency */,
+			);
+			name = "Pods-JKSimpleAlert_Tests";
+			productName = "Pods-JKSimpleAlert_Tests";
+			productReference = D9356B07C1646B1BD2197527CE211F11 /* Pods_JKSimpleAlert_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 375BCBF58C53695CBEC8BEA45CBB47A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65030BADCBE37576BD7D4CB43EFC086F /* JKSimpleAlert */,
+				185089ED8A41E444082F258A2A8DF56B /* Pods-JKSimpleAlert_Example */,
+				EB09853A74719007155244E497D3804A /* Pods-JKSimpleAlert_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ADCD4298E0CA995385308D4CE14BDE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB31B8DDCA5759879F028A54B40E3F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15B5A930D6A005546B6B9FD26B665B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408A847CC1F48383B32F4CDDB954A528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF968442C5C1BD17AB593FCAD43C06 /* JKSimpleAlert-dummy.m in Sources */,
+				14098D10944040C0AEEEDA281B5ACE50 /* JKSimpleAlert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42769DDA3D8B7F1B6D0DE4DE8BB1813B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14DA1D90B09616570A4068B2E7EC657 /* Pods-JKSimpleAlert_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E8AD6312F0F0ED90A693A1C394E6C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2139CFC9D7FBEE713E10016A35F87111 /* Pods-JKSimpleAlert_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EEC54BBE17C4BAD17FC4048DC5EC6D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JKSimpleAlert;
+			target = 65030BADCBE37576BD7D4CB43EFC086F /* JKSimpleAlert */;
+			targetProxy = 7D2CB4F1CCE752D304661D99BCE64CC8 /* PBXContainerItemProxy */;
+		};
+		6B8A308991F58CD5BC911E6AA63761B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JKSimpleAlert_Example";
+			target = 185089ED8A41E444082F258A2A8DF56B /* Pods-JKSimpleAlert_Example */;
+			targetProxy = D00B5A34CA9B37CB28315E4E73C359D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23E48D8CB354422E1C219833152A35E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E49CEC9CE9631B9C6CDDC9DE31FC26D /* JKSimpleAlert.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JKSimpleAlert/JKSimpleAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JKSimpleAlert/JKSimpleAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JKSimpleAlert/JKSimpleAlert.modulemap";
+				PRODUCT_MODULE_NAME = JKSimpleAlert;
+				PRODUCT_NAME = JKSimpleAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7FF4B20E8894BA216C995739D69ED126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4604490D250795E99575A7FB446F2D2 /* Pods-JKSimpleAlert_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JKSimpleAlert_Tests/Pods-JKSimpleAlert_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKSimpleAlert_Tests/Pods-JKSimpleAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B9E57538713B35A7B91F14696A2822F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45C85310BE4B5BBB67DE138C9D15CC1 /* Pods-JKSimpleAlert_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JKSimpleAlert_Example/Pods-JKSimpleAlert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKSimpleAlert_Example/Pods-JKSimpleAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C832625F3B7D2B18E54D0AAD4342D5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53DA3B0FE14E708D5E45012104EA351F /* JKSimpleAlert.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JKSimpleAlert/JKSimpleAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JKSimpleAlert/JKSimpleAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JKSimpleAlert/JKSimpleAlert.modulemap";
+				PRODUCT_MODULE_NAME = JKSimpleAlert;
+				PRODUCT_NAME = JKSimpleAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E64D692AA2687F5E7C1F82A0BF53D6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661B597A29C8A18762B1E047AD54ED61 /* Pods-JKSimpleAlert_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JKSimpleAlert_Example/Pods-JKSimpleAlert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKSimpleAlert_Example/Pods-JKSimpleAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECC555221F9B94E5777ABEBD31B7336D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7929CFC9C6E78C824BE8411023328385 /* Pods-JKSimpleAlert_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JKSimpleAlert_Tests/Pods-JKSimpleAlert_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKSimpleAlert_Tests/Pods-JKSimpleAlert_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B32FFDD02A47A6163F206C4D158EEE0 /* Build configuration list for PBXNativeTarget "JKSimpleAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C832625F3B7D2B18E54D0AAD4342D5D6 /* Debug */,
+				23E48D8CB354422E1C219833152A35E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FCB0F419611D61DBFEADD531BB852D /* Build configuration list for PBXNativeTarget "Pods-JKSimpleAlert_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC555221F9B94E5777ABEBD31B7336D /* Debug */,
+				7FF4B20E8894BA216C995739D69ED126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1A7027FD0A38B36F55E1BAEE1D13B4 /* Build configuration list for PBXNativeTarget "Pods-JKSimpleAlert_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64D692AA2687F5E7C1F82A0BF53D6BA /* Debug */,
+				9B9E57538713B35A7B91F14696A2822F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

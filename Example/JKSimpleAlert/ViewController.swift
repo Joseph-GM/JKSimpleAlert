@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JKSimpleAlert
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showAlert(_ sender: UIButton) {
+        if #available(iOS 13.0, *) {
+            YYSimpleAlert(title: "is this simple?", confirm: "Yes"){print("it is simple button")}.show(in: view)
+        } else {
+            print("iOS version is lower than 13.0")
+        }
+    }
 }
 
